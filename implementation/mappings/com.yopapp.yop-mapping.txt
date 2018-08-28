@@ -1,0 +1,4 @@
+Browse listings: HomeActivity, ItemsActivity, MapActivity, InterestActivity, CollectionsActivity, CategoriesResultActivity, NewFilterActivity, FullScreenImageActivity, SelectFeatureActivity, ItemDetailActivity, jq, qu
+Post a listing: SellActivity, CameraActivity, MoreTipsActivity, jq, qu
+Ask to a seller: ChatActivity, ReviewsActivity, UserListActivity, OffersReceivedActivity, ChatsCenterActivity, ChatCenterArchivedActivity, ProfileActivity, MyProfileActivity, NotificationsActivity, jq, qu
+Buy an object: AddCreditCardActivity, LeaveFeedbackActivity, AddBankActivity, PayItemActivity, ValidatePhoneActivity, ValidatePhoneCodeActivity, BuyNowActivity, PaymentMethodActivity, InstallmentsActivity, ConfirmCpfActivity, DealDetailActivity, LeadActivity, ShipmentActivity, TrackingNumberActivity, SelectPaymentMethodActivity, PayWithBankSlipActivity, ViewBankSlipActivity, MyCardsActivity, jq, qu

@@ -1,0 +1,68 @@
+<resources>
+    <string name="main_view_title">Default Preference Settings</string>
+    <string name="app_name">AFPApp</string>
+    <string name="preference_file_key">it.aq.gssi.afpdefaults</string>
+
+    <string name="pref_cameraTitle">Camera</string>
+    <string name="pref_cameraDialogTitle">Preferences for Camera</string>
+    <string-array name="pref_camera_entries">
+        <item>Allow</item>
+        <item>Deny</item>
+    </string-array>
+    <string-array name="pref_camera_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string name="pref_camera_default">0</string>
+
+    <string name="pref_microphoneTitle">Microphone</string>
+    <string name="pref_microphoneDialogTitle">Preferences for Microphone</string>
+    <string-array name="pref_microphone_entries">
+        <item>Allow</item>
+        <item>Deny</item>
+    </string-array>
+    <string-array name="pref_microphone_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string name="pref_microphone_default">0</string>
+
+
+    <string name="pref_locationTitle">Location</string>
+    <string name="pref_locationDialogTitle">Preferences for Location</string>
+    <string-array name="pref_location_entries">
+        <item>Complete Location</item>
+        <item>Region Only</item>
+        <item>City Only</item>
+        <item>Deny</item>
+    </string-array>
+    <string-array name="pref_location_values">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string name="pref_location_default">0</string>
+
+    <string name="pref_contactsTitle">Contacts</string>
+    <string name="pref_contactsDialogTitle">Preferences for Contacts</string>
+    <string-array name="pref_contacts_entries">
+        <item>Modify Existing Access</item>
+        <item>Add New Access</item>
+        <item>Read Only Access</item>
+        <item>Deny Access</item>
+    </string-array>
+    <string-array name="pref_contacts_values">
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0 </item>
+
+    </string-array>
+    <string name="pref_contacts_default">0</string>
+    <string name="submit_button_title">Submit</string>
+    <string name="submit_button_summary" />
+    <string name="submit_button_body">Submit</string>
+
+
+</resources>

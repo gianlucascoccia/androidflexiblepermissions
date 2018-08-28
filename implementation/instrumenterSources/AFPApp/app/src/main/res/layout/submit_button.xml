@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/submitButton"
+    android:text="@string/submit_button_body"
+    android:textSize="8pt"
+    android:textColor="#FFFFFF"
+    android:backgroundTint="#3F51B5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:key="submit_button_key"
+    android:onClick="onSubmitClick">
+</Button>

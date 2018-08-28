@@ -1,0 +1,4 @@
+News feed, survey, and events: MainActivity, WelcomeActivity
+Search feeds: SearchActivity
+Take survey: TakeSurveyActivity
+Saved feed items: ReadLaterActivity

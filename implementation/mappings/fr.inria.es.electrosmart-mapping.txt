@@ -1,0 +1,8 @@
+Graphs and Signals: MainActivity, e
+Agreement: AgreementActivity
+Settings:SettingsActivity
+User feedback:FeedbackActivity
+Tutorial:TutorialActivity
+Terms and Condition:TermsOfUseActivity
+E-score:MetricsHelpActivity
+About:AboutActivity

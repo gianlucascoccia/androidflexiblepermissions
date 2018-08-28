@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:title="Default Permission Settings"
+    >
+    <PreferenceCategory
+        android:title="@string/main_view_title">
+        <!--android:layout="@layout/custom_layout"-->
+
+        <ListPreference
+            android:key="CAMERA"
+            android:title="@string/pref_cameraTitle"
+            android:dialogTitle="@string/pref_cameraDialogTitle"
+            android:entries="@array/pref_camera_entries"
+            android:entryValues="@array/pref_camera_values"
+            android:defaultValue="@string/pref_camera_default" />
+        <ListPreference
+            android:key="MICROPHONE"
+            android:title="@string/pref_microphoneTitle"
+            android:dialogTitle="@string/pref_microphoneDialogTitle"
+            android:entries="@array/pref_microphone_entries"
+            android:entryValues="@array/pref_microphone_values"
+            android:defaultValue="@string/pref_microphone_default" />
+        <ListPreference
+            android:key="LOCATION"
+            android:title="@string/pref_locationTitle"
+            android:dialogTitle="@string/pref_locationDialogTitle"
+            android:entries="@array/pref_location_entries"
+            android:entryValues="@array/pref_location_values"
+            android:defaultValue="@string/pref_location_default" />
+        <ListPreference
+            android:key="CONTACTS"
+            android:title="@string/pref_contactsTitle"
+            android:dialogTitle="@string/pref_contactsDialogTitle"
+            android:entries="@array/pref_contacts_entries"
+            android:entryValues="@array/pref_contacts_values"
+            android:defaultValue="@string/pref_contacts_default" />
+        <Preference
+            android:key="resetBD"
+            android:summary="@string/submit_button_summary"
+            android:widgetLayout="@layout/submit_button"
+            ></Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
