@@ -1,0 +1,48 @@
+Datetime,Name,Gender,Age,Profession,AndroidKnowledge,ID,WhatFirst
+29/06/2018 14.23.20,Mario Pelliccione,Male,Between 31 and 40 years old,Restorer,1,1,Base
+02/07/2018 10.09.06,Stefano Pace,Male,Between 31 and 40 years old,Software developer,3,2,Base
+02/07/2018 11.12.04,Andrea Perelli,Male,Between 21 and 30 years old,Student,3,3,Instrumented
+02/07/2018 11.31.21,Stefano Martella,Male,Between 21 and 30 years old,Student,5,4,Base
+02/07/2018 11.50.16,Iari Icaro,Male,Between 21 and 30 years old,Student,4,5,Instrumented
+02/07/2018 12.07.39,Morelli Davide,Male,Between 21 and 30 years old,Studente,3,6,Base
+02/07/2018 13.33.03,Daniele Di Pompeo,Male,Between 31 and 40 years old,PhD Student,5,7,Instrumented
+02/07/2018 13.57.52,Francesco Gallo,Male,Between 41 and 50 years old,Research Fellow,4,8,Base
+02/07/2018 14.19.33,Claudio Pompilio,Male,Between 31 and 40 years old,PhD student,4,9,Instrumented
+02/07/2018 15.33.45,Mattia Di Federico,Male,Between 21 and 30 years old,Studente,3,10,Base
+02/07/2018 15.55.59,Micarelli Davide,Male,Between 21 and 30 years old,Software developer,4,11,Instrumented
+02/07/2018 16.26.31,Francesco Angelini,Male,Between 21 and 30 years old,Data Analyst,5,12,Base
+02/07/2018 16.51.24,Andrea Bianchi,Male,Between 21 and 30 years old,Software developer,3,13,Instrumented
+02/07/2018 17.21.28,Mario Mennella ,Male,Between 31 and 40 years old,Sviluppatore software,4,14,Base
+03/07/2018 18.17.56,Roberto D'Amico,Male,Between 21 and 30 years old,Manufacturing Engineer,3,15,Instrumented
+03/07/2018 18.29.09,Luigi Gasbarro,Male,Between 21 and 30 years old,Mechanical Engineer,4,16,Base
+04/07/2018 15.35.07,Alessio Carmenini,Male,Between 31 and 40 years old,Student,4,17,Instrumented
+04/07/2018 16.07.41,Francesco Squeo,Male,Between 21 and 30 years old,Student,1,18,Base
+04/07/2018 16.33.17,Rosario Carmenini,Male,Between 21 and 30 years old,Student,3,19,Instrumented
+04/07/2018 17.20.46,Simone Russo,Male,Between 21 and 30 years old,Student,3,20,Base
+04/07/2018 17.55.43,Claudio Di Sipio,Male,Between 21 and 30 years old,Student,4,21,Instrumented
+04/07/2018 18.14.44,Riccardo Rubei,Male,Between 21 and 30 years old,Student,4,22,Base
+05/07/2018 16.54.28,Davide Mastrogiuseppe,Male,Between 21 and 30 years old,Student,5,23,Instrumented
+05/07/2018 17.17.41,Harold Felipe Quiceno V,Male,Between 31 and 40 years old,Student,3,24,Base
+05/07/2018 17.45.14,Fabio Berardi,Male,Between 21 and 30 years old,Student,3,25,Instrumented
+05/07/2018 18.09.40,Andrea Lucioli,Male,Between 21 and 30 years old,Mobile front-end developer,5,26,Base
+05/07/2018 18.34.08,Federico Flaiano,Male,Between 21 and 30 years old,Developer,5,27,Instrumented
+05/07/2018 18.55.29,Marco De Toma,Male,Between 21 and 30 years old,Student,3,28,Base
+09/07/2018 15.05.14,Stefano Corsetti,Male,Between 21 and 30 years old,Student,5,29,Instrumented
+09/07/2018 15.22.10,Moira Di Silvio,Female,Between 21 and 30 years old,Developer,5,30,Base
+09/07/2018 15.45.37,Francesco Rapposelli,Male,Between 21 and 30 years old,Student,4,31,Instrumented
+09/07/2018 16.05.02,Egidio Trivarelli,Male,Between 21 and 30 years old,Student,4,32,Base
+09/07/2018 16.32.31,Gianluca Filippone,Male,Between 21 and 30 years old,Student,4,33,Instrumented
+10/07/2018 11.31.58,Elena Di Iorio,Female,Between 21 and 30 years old,PhD Student,3,34,Base
+10/07/2018 22.18.21,Daniela La Chioma,Female,Between 31 and 40 years old,Commerciante,1,35,Instrumented
+12/07/2018 10.19.15,Anonymous,Female,Between 31 and 40 years old,Student,3,36,Base
+13/07/2018 17.34.16,Angelica Berti ,Female,Between 21 and 30 years old,Lawyer,3,37,Instrumented
+15/07/2018 16.12.30,Daniela Mastrantonio,Female,Between 51 and 60 years old,Impiegata,3,38,Instrumented
+16/07/2018 19.32.53,Patrizia Capanna,Female,Between 21 and 30 years old,Secretary,5,39,Base
+17/07/2018 11.02.52,Anonymous,Female,Between 31 and 40 years old,Student,4,40,Instrumented
+17/07/2018 11.23.29,Claudia Pipitone,Female,Between 21 and 30 years old,Student,3,41,Base
+17/07/2018 11.46.05,Giulia Camerano,Female,Between 21 and 30 years old,Student,3,42,Instrumented
+17/07/2018 12.11.59,Gaia Sinatti,Female,Between 21 and 30 years old,Student,4,43,Base
+17/07/2018 12.37.32,Chiara Fratini,Female,Between 21 and 30 years old,Student,2,44,Instrumented
+17/07/2018 13.24.18,Gabriella Pesce,Female,Less than 20 years old,Student,2,45,Base
+17/07/2018 14.58.33,Silvia Colagrande,Female,Between 21 and 30 years old,Student,1,46,Instrumented
+17/07/2018 15.15.24,Federica Simioli,Female,Between 21 and 30 years old,Student,1,47,Base

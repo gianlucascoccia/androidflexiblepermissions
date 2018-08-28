@@ -1,0 +1,26 @@
+Splash Activitity For launching;SplashActivity;1519102761368
+Information about foodel;AboutFoodelActivity;1519102796070
+Settings of a application;SettingsActivity;1519102811951
+Login;LoginActivity;1519102866044
+Register;RegisterActivityNew;1519102887484
+Info about User;MyInfoActivity;1519102906911
+User banking info;BankingInfoActivity;1519102933824
+OrderHistory;HistoryActivity;1519102975774
+Social sharing about the app;TellaFriendActivity;1519103008998
+Signout of a user;SignOutActivity;1519103076494
+OrderRequest, new order;OrderRequestActivity;1519103159828
+To know the status of the delivery Vehicle;VehicleActivity;1519103180131
+Forgot password activity;ForgotActivity;1519103247379
+OrderRequest, user can select his or her delivery vehicle;CarSelectActivity;1519103290261
+OrderHistory;SpecificOrderHistrory;1519103547369
+OrderRequest, user can select his payment method;PaymentHelpActivity;1519103429393
+when restaurant owner dispacth the order to driver;OrderDispatchActivity;1519104155837
+help line of foodel;HelpActivity;1519103580878
+info about vehicle which is delivar the food;VehicleInfoActivity;1519103737084
+a user who deliver food under specific restaurant;JobUnderRestaurentActivity;1519103883625
+History of delivered food;JobHistoryActvity;1519104217272
+if user update the vehicle;UpdateVihicleActivity;1519104238662
+user update the order status;DriverUpdateOrderActivity;1519104304157
+show rout in map of outlet .user can see form where it can take order;DriverRouteToOutletActivity;1519104382069
+Show current place in map of user;DriverGetRouteActivity;1519104460046
+FormSubmit;NA;1519104519579

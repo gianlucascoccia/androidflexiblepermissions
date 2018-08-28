@@ -1,0 +1,5 @@
+Show list of news feed, survey, and events;MainActivity;1519771701414
+Search all feeds;SearchActivity;1519771691204
+Take survey;TakeSurveyActivity;1519771718464
+Show list of saved feed items;ReadLaterActivity;1519771739865
+FormSubmit;NA;1519771751742

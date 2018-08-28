@@ -1,0 +1,53 @@
+library(splitstackshape)
+library(plyr)
+library(vioplot)
+
+filename <- "final-times.csv"
+width <- 7.8
+height <- 3.5 
+margin <- 0.1
+
+data<-read.csv(filename, sep=",", header=T, row.names=NULL, stringsAsFactors=FALSE)
+
+toPdf <- TRUE
+fileName <- "study1.pdf"
+
+#universe <- merge(treatments2, results2,by="id")
+#universe$dv1 <- universe$dv1 / 1000000 # in seconds
+#universe$dv2 <- universe$dv2 / (1024 * 1024) # in Megabyte
+
+if(toPdf) {
+  setupPdf()
+}
+
+analysis <- function() {
+  totals <- rowSums(data[,-1])
+  print(min(totals))
+  x1 <- data$apktool_d
+  x2 <- data$dex2jar
+  x3 <- data$zip
+  x4 <- data$bcel
+  x5 <- data$dx
+  x6 <- data$apktool_a
+  x7 <- data$jarsigner
+  totals <- totals
+  labels <- names(data)[-1]
+  labels[8] <- "TOTAL" 
+  p <- boxplot(x1, x2, x3, x4, x5, x6, x7,totals, names=labels, col="grey", drawRect=TRUE, wex=0.5)
+  #text(y=c(42,42,42,42,42,42,42,42), labels=c(round(mean(x1), 2), round(mean(x2), 2), round(mean(x3), 2), round(mean(x4), 2), round(mean(x5), 2), round(mean(x6), 2), round(mean(x7), 2),round(mean(totals), 2)), x = c(1,2,3,4,5,6,7,8), col="red")
+  title("")
+}
+
+analysis()
+
+if(toPdf) {
+  dev.off()
+}
+
+setupPdf <- function() {
+  margin <- margin
+  pdf(fileName, width=width, height=height)
+  par(mar=c(3, 3, 3, margin))
+  par(mfrow=c(1, 1))
+  par(las=1)
+}

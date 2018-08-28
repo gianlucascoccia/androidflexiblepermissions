@@ -1,0 +1,41 @@
+browse listings;HomeActivity;1519129329360
+browse listings;ItemsActivity;1519129330192
+browse listings;MapActivity;1519129444175
+browse listings;InterestActivity;1519129457097
+browse listings;CollectionsActivity;1519129482114
+browse listings;CategoriesResultActivity;1519129489811
+browse listings;NewFilterActivity; 1519129493730
+browse listings;FullScreenImageActivity;1519129512905
+browse listings;SelectFeatureActivity;1519129517157
+browse listings;ItemDetailActivity;1519129516322
+post a listing;SellActivity;1519129411075
+post a listing;CameraActivity;1519129434704
+post a listing;MoreTipsActivity;1519129454237
+seller/buyer interaction;ChatActivity;1519129408509
+seller/buyer interaction;ReviewsActivity;1519129409577
+seller/buyer interaction;UserListActivity';1519129413262
+seller/buyer interaction;OffersReceivedActivity;1519129429285
+seller/buyer interaction;ChatsCenterActivity;1519129461550
+seller/buyer interaction;ChatCenterArchivedActivity;1519129462800
+seller/buyer interaction;ProfileActivity;1519129476022
+seller/buyer interaction;MyProfileActivity;1519129476757
+seller/buyer interaction;NotificationsActivity;1519129497866
+buying flow;AddCreditCardActivity;1519129432637
+buying flow;LeaveFeedbackActivity;1519129437878
+buying flow;AddBankActivity;1519129439523
+buying flow;PayItemActivity;1519129450678
+buying flow;ValidatePhoneActivity;1519129465797
+buying flow;ValidatePhoneCodeActivity;1519129466584
+buying flow;BuyNowActivity;1519129467602
+buying flow;PaymentMethodActivity;1519129469087
+buying flow;InstallmentsActivity;1519129470137
+buying flow;ConfirmCpfActivity;1519129471456
+buying flow;DealDetailActivity;1519129473107
+buying flow;LeadActivity;1519129478141
+buying flow;ShipmentActivity;1519129479121
+buying flow;TrackingNumberActivity;1519129483592
+buying flow;SelectPaymentMethodActivity;1519129487544
+buying flow;PayWithBankSlipActivity;1519129486781
+buying flow;ViewBankSlipActivity;1519129491863
+buying flow;MyCardsActivity;1519129504885
+FormSubmit;NA;1519129521236
