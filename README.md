@@ -6,11 +6,11 @@ This git repository contains the replication package for our TSE paper "Enhancin
 In this paper we propose a user-centric and flexible approach to permissions management aimed at improving the Android app trustability. The proposed approach empowers end users to selectively grant permission by specifying the desired level of permissions granularity, and the specific features of the app in which the chosen permission levels are granted. Four experiments have been designed, executed and analysed for evaluating key aspects of the approach, that are: the performance of our app instrumenter, the performance if instrumented apps at runtime, the significance and usefulness of the approach from both the end user and developer perspective.
 
 Authors:
-Gian Luca Scoccia: gianluca.scoccia/at/gssi.it
-Ivano Malavolta: i.malavolta/at/vu.nl
-Marco Autili: marco.autili/at/univaq.it
-Amleto Di Salle: amleto.disalle/at/univaq.it
-Paola Inverardi:paola.inverardi/at/univaq.it  
+* Gian Luca Scoccia: gianluca.scoccia/at/gssi.it
+* Ivano Malavolta: i.malavolta/at/vu.nl
+* Marco Autili: marco.autili/at/univaq.it
+* Amleto Di Salle: amleto.disalle/at/univaq.it
+* Paola Inverardi:paola.inverardi/at/univaq.it  
 
 Structure of the replication package is as follows:
 
