@@ -12,7 +12,6 @@ mean(questions$experience)
 sd(questions$experience)
 getmode(questions$appsDeveloped)
 getmode(questions$membersCount)
-getmode(questions$Time)
 
 
 mean(times)
