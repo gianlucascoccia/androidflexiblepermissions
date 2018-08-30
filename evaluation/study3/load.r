@@ -1,7 +1,7 @@
 setwd("/Users/gianlucascoccia/Desktop/svn/gianluca/TSE_2018/evaluation/developers")
 
 questions = read.csv2("data/Developers_survey_replies.csv", sep=",", header = TRUE, quote="\"")
-colnames(questions) = c('submitDate', 'experience', 'appsDeveloped', 'membersCount',  'opionOnA6', 'CommentsOnA6', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'Q1', 'Q2', 'Q3', 'Time', 'Contacts', 'Comment')
+colnames(questions) = c('submitDate', 'experience', 'appsDeveloped', 'membersCount',  'opionOnA6', 'CommentsOnA6', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 'S9', 'S10', 'Q1', 'Q2', 'Q3', 'Contacts', 'Comment')
 
 questions$Q1 <- ordered(questions$Q1,
                  levels = c("Absolutely no","No", "Don't know","Yes","Absolutely yes"))
