@@ -1,4 +1,5 @@
-setwd("/Users/gianlucascoccia/Desktop/svn/gianluca/TSE_2018/evaluation/users")
+library(dplyr)
+setwd("/Users/gianlucascoccia/Desktop/svn/gianluca/TSE_2018/evaluation/study4")
 
 demographics = read.csv2("data/AFP - Demographics.csv", sep=",", header = TRUE, quote="\"")
 
@@ -97,3 +98,13 @@ S7n_freq = round(table(factor(S7_norm, levels = 0:4)) / 47, digits = 2)
 S8n_freq = round(table(factor(S8_norm, levels = 0:4)) / 47, digits = 2)
 S9n_freq = round(table(factor(S9_norm, levels = 0:4)) / 47, digits = 2)
 S10n_freq = round(table(factor(S10_norm, levels = 0:4)) / 47, digits = 2)
+
+######################### DATA BY SELF DECLARED ANDROID KNOWLEDGE ###################
+
+joined = inner_join(demographics, AFP, by=c("ID"))
+joined_A6 = inner_join(demographics, A6, by=c("ID"))
+
+confidence_1 = subset(joined, joined$AndroidKnowledge == 1)
+confidence_2 = subset(joined, joined$AndroidKnowledge == 2)
+confidence_3 = subset(joined, joined$AndroidKnowledge == 3)
+confidence_4 = subset(joined, joined$AndroidKnowledge == 4)
